@@ -3843,6 +3843,7 @@ div[data-lastpass-icon-root] {
 }
 
 .page__form--signin .new-account {
+    padding-top: 24px;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;

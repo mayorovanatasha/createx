@@ -843,8 +843,8 @@
                     <li class="navigation__column">
                         <h2 class="navigation__title">Sign up to our newsletter</h2>
                         <form class="footer__form" action="" method="post">
-                            <input class="footer__field" placeholder="Email address" type="email"
-                                name="newsletter-email" id="newsletter-email" data-lpignore="true" required>
+                            <input class="footer__field" placeholder="Email address" type="email" name="email"
+                                id="email" data-lpignore="true" required>
                             <button class="footer__button" type="submit">
                                 <span class="visually-hidden">Submit</span>
                             </button>
@@ -883,7 +883,7 @@
                                     id="email" required>
                             </li>
                             <li class="form__list__item">
-                                <label class="control-label" for="number">Password</label>
+                                <label class="control-label" for="password">Password</label>
                                 <input class="control-input control-input--password" type="password" name="password"
                                     placeholder="" id="password" required>
                                 <button class="password__button"><span class="visually-hidden">Password</span></button>
@@ -901,9 +901,10 @@
                                 <button class="button button__solid button__solid--regular" type="submit"><span
                                         class="text text--regular">Sign in</span></button>
                             </li>
-                            <p class="new-account">Don't have an account? <a class="checkbox__link small-regular"
-                                    href="#">Sign up</a></p>
                         </ul>
+                        <p class="new-account">Don't have an account? <a class="checkbox__link small-regular"
+                                href="#">Sign up</a></p>
+
                     </fieldset>
                 </form>
                 <div class="modal__footer">
@@ -959,7 +960,8 @@
             </section>
         </div>
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="js/main.js"></script>
 </body>
 
