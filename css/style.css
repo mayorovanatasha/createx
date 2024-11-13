@@ -3492,13 +3492,28 @@ body {
 .trends__item {
     display: flex;
     gap: 20px;
-    padding-top: 24px;
+    padding-top: 20px;
+}
+
+.trends__link {
+    display: block;
 }
 
 .trends__meta {
     font-size: 14px;
     line-height: 21px;
     color: var(--color-gray-700);
+}
+
+.trends__title {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--color-gray-900);
+}
+
+.trends__title:hover {
+    color: var(--color-primary);
 }
 
 /* Footer */
