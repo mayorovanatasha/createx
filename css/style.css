@@ -1252,14 +1252,14 @@ body {
     right: 20px;
 }
 
-.cards--team .social-item-icons {
+.cards--team .social__link--icons {
     width: 20px;
     height: 20px;
     opacity: 0.6;
     fill: #ffffff;
 }
 
-.cards--team .social-item-icons:hover {
+.cards--team .social__link--icons:hover {
     opacity: 1;
 }
 
